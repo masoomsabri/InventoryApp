@@ -1,9 +1,4 @@
-# InventoryApp
-Inventory app maintain inventory with Add, Edit, Delete inventory functionality.It persists value and accept the change.
-Gif demo of android inventory app
-https://github.com/masoomsabri/InventoryApp/blob/master/Inventoryapp.gif
-
-Pre-work - TodoList
+Pre-work - InventoryApp
 
 Inventory app maintain inventor list and basic product management functionality including adding new product, editing and deleting an existing product, increase and decrease product count and order the product, add the new contact.
 
@@ -15,18 +10,20 @@ User Stories
 
 The following required functionality is completed:
 
- - [x] User can successfully add and remove items from the todo list
- - [x] User can tap a todo item in the list and bring up an edit screen for the todo item and then have any changes to the text reflected in the todo list.
- - [x] User can persist todo items and retrieve them properly on app restart
+ - [x] User can successfully add and remove product items from the inventory list
+ - [x] User can tap a product in the list and bring into an edit screen to add/decrease inventory quanity, delete quantity.
+ - [x] User can persist product and retrieve them properly on app restart
 
 The following optional features are implemented:
 
  - [x] Persist the product into SQLite instead of a text file
- - [x] Improve style of the todo items in the list using a custom adapter
- - [x] Add support for completion due dates for todo items (and display within listview item)
- - [x] Use a DialogFragment instead of new Activity for editing items
+ - [x] Use Cursor adapter to extend a custom adapter and using the same bind the items view, setthelistner view etc.
+ - [x] Add support for product name, quantity, price, product image (and display within listview item)
+ - [x] Use a alert dialog to confirm final deletiion of product
  - [x] Add support for selecting the priority of each todo item (and display in listview item)
  - [x] Tweak the style improving the UI / UX, play with colors, images or backgrounds
+ - [x] Added features to download product image and display in listview.
+ - [x] Use the framelayout, Linearlayout and Scrollview
  
 The following additional features are implemented:
 
